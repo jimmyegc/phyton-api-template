@@ -1,0 +1,27 @@
+
+### Create Item
+POST http://localhost:5000/items
+content-type: application/json
+
+{
+  "nombre": "nombre temporal",
+  "descripcion": "descripcion temporal"
+}
+
+### Read All Items
+GET http://localhost:5000/items
+
+### Read Item
+GET http://localhost:5000/items/688d83dbecf0c9767064ea27
+
+### Update Item
+PUT http://localhost:5000/items/688d83dbecf0c9767064ea27
+content-type: application/json
+
+{
+  "nombre": "nombre temporal UPDATED",
+  "descripcion": "descripcion temporal UPDATED"
+}
+
+### Delete Item
+DELETE http://localhost:5000/items/688d83dbecf0c9767064ea27
