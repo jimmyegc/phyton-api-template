@@ -12,10 +12,10 @@ content-type: application/json
 GET http://localhost:5000/items
 
 ### Read Item
-GET http://localhost:5000/items/688d83dbecf0c9767064ea27
+GET http://localhost:5000/items/688c407d0267e84019b1a0a6
 
 ### Update Item
-PUT http://localhost:5000/items/688d83dbecf0c9767064ea27
+PUT http://localhost:5000/items/688c407d0267e84019b1a0a6
 content-type: application/json
 
 {
